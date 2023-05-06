@@ -27,7 +27,7 @@ links.forEach(function(link){
             content.classList.add("animate__fadeOutUp");
             //poner un timer para que haga una accion en 1000ms
             setTimeout(function(){
-                location.href = "/equipos";
+                location.href = "../";
             },1000);
             
 

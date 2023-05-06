@@ -37,8 +37,8 @@ a:active{
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 8px;
     position: relative;
-    padding: 1.8em;
-    overflow: scroll;
+    padding: 1.2em;
+    /* overflow: scroll; */
 }
 .actions{
     position: absolute;

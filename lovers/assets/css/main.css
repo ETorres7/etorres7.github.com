@@ -1,0 +1,284 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+.subtitulos{
+    color: white;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+}
+.paragraph{
+    font-size:larger;
+    text-align: justify;
+}
+.address{
+    padding-bottom: 0%;
+}
+.titulo{
+    color: #131213;
+    text-align: center;
+    text-transform: capitalize;
+}
+.fa-heart{
+    color: red;
+}
+.seccion{
+    margin-top: 15px; 
+    text-align: center; 
+    display: inline-block; 
+    width: 32%;
+}
+.seccion-dos{
+    margin: 4% 4% 2% 4%;
+    text-align: center; 
+    display: inline-block; 
+    width: 40%;
+}
+.main-image{
+    text-decoration: dashed;
+    text-decoration-line: overline;
+    color: white;
+}
+.main-image:hover{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: swing;
+    animation-duration: 500ms;
+}
+.container-landing{
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height:fit-content;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.container{
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.content{
+    max-width: 700px;
+    max-height: 70vh;
+    width: 100%;
+    background-color: rgb(179, 230, 239);
+    /* box-shadow: diferenciaHorizontal, diferenciaVertical desenfoque amplitud color */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    position: relative;
+    padding: 0.8em;
+    /* overflow: scroll; */
+}
+.table{
+    width: 100%;
+}
+.table td, table th{
+    padding: 1em;
+    text-align: center;
+}
+
+.table tr:nth-child(even){
+    background-color: #c9ada7;
+}
+.title-item{
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    border-bottom-style: dashed;
+    border-width: 5px;
+    /* border-right-style: solid;
+    border-width: 3px;
+    border-color: #22223b; */
+    padding-bottom: 1em;
+}
+a{
+    color: #152aae;
+    font-weight: 400;
+}
+a:hover{
+    opacity: 0.8;
+}
+.btn-disabled{
+    color: gray;
+    text-decoration: none;
+}
+#modal{
+    max-width: 50ch;
+}
+#modal::backdrop{
+    background-color: rgba(0,0,0,0.55);
+}
+
+/* css de gifts */
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 30%;
+    background-color: #00416A;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.clocard{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 30%;
+    background-color: #00416A;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* css de mes99 */
+.container-fondo{
+    background: #EB5757;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.container-mes99{
+    height: 80vh;
+    padding-top: 2%;
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.titulo-mayor{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.normal-image{
+    float:left;
+    margin-right: 1em;
+}
+.content-mes{
+    max-width: 1100px;
+    max-height: 70vh;
+    width: 100%;
+    background-color: rgb(97, 219, 241);
+    /* box-shadow: diferenciaHorizontal, diferenciaVertical desenfoque amplitud color */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    position: relative;
+    padding: 0.8em;
+    /* overflow: scroll; */
+}
+.fa-location-dot{
+    color: red;
+}
+
+/*--- css de memorias -----*/
+.contenido-center{
+    padding: 10px 2% 10px 2%;
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: fit-content;
+
+}
+.container-memorias{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1500px;
+    min-height: 50vh;
+    padding: 0% 2% 0% 2%;
+}
+
+.noMargin {
+    margin: 0px;
+}
+.navi{
+    /* background-color: white; */
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.one {
+    /* background-color: red; */
+    width: 25%;
+    min-height: 105vh;
+    position: relative;
+}
+#popupOne{
+    position: absolute;
+    top: 3em;
+    left: 0.8em;
+}
+.two {
+    /* background-color: yellow; */
+    width: 25%;
+    min-height: 25vh;
+    position: relative;
+}
+#popupTwo{
+    position: absolute;
+    top: 3em;
+    left: 0.8em;
+}
+.three {
+    /* background-color: green; */
+    width: 25%;
+    min-height: 25vh;
+    position: relative;
+}
+#popupThree{
+    position: absolute;
+    top: 3em;
+    left: 0.8em;
+}
+.four {
+    /* background-color: rgb(115, 115, 230); */
+    width: 25%;
+    min-height: 25vh;
+    position: relative;
+}
+#popupFour{
+    position: absolute;
+    top: 3em;
+    left: 0.8em;
+}
+.closing{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 30%;
+    background-color: #00416A;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.fa-house{
+    color: white;
+}
