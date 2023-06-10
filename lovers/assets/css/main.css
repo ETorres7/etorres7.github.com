@@ -244,6 +244,34 @@ a:hover{
     align-items: center;
     justify-content:center;
 }
+/* css de cumpleaños28 */
+.container-fondo-28{
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:auto;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.titulo-centro{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.container-cumple-28{
+    /* background-color: green;  */
+    margin: 0% 4% 0% 2%;
+    height: 80vh;
+    padding: 2% 3% 2% 3%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.p{
+    color: whitesmoke;
+    font-size: larger;
+}
 
 /*--- css de memorias -----*/
 .contenido-center{
