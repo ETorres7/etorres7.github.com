@@ -78,7 +78,7 @@ html{
     width: 100%;
 }
 .table td, table th{
-    padding: 1em;
+    padding: 0.5em;
     text-align: center;
 }
 
@@ -270,6 +270,76 @@ a:hover{
     align-items: center;
     justify-content:center;
 }
+/* css de mes103 */
+.container-fondo-103{
+    /*background: #EB5757;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-image: linear-gradient(to top, #2c9985 0%, #47ef5a 99%, #04a36b 100%);
+    height: 100vh;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.container-mes-103{
+    height: 80vh;
+    padding-top: 2%;
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.titulo-mayor{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.normal-image{
+    float:left;
+    margin-right: 1em;
+}
+.content-mes-103{
+    max-width: 1100px;
+    max-height: 70vh;
+    width: 100%;
+    background-color: rgb(76, 175, 207);
+    /* box-shadow: diferenciaHorizontal, diferenciaVertical desenfoque amplitud color */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    position: relative;
+    padding: 0.8em;
+    /* overflow: scroll; */
+}
+.fa-location-dot{
+    color: red;
+}
+/* css de mes104 */
+.container-fondo-104{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    height: 100vh;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.container-mes-104{
+    height: 80vh;
+    padding-top: 2%;
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.content-mes-104{
+    max-width: 1100px;
+    max-height: 70vh;
+    width: 100%;
+    background-color: rgb(199, 211, 146);
+    /* box-shadow: diferenciaHorizontal, diferenciaVertical desenfoque amplitud color */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    position: relative;
+    padding: 0.8em;
+    /* overflow: scroll; */
+}
+
 /* css de cumpleaños28 */
 .container-fondo-28{
     background: #870000;  /* fallback for old browsers */

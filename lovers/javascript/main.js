@@ -111,7 +111,7 @@ cards.forEach(function(card){
         return false
     })
 });
-
+//CLose card for mes100
 let cards100 = document.querySelectorAll('.clocard100');
 //Recorrerlos
 cards100.forEach(function(card){
@@ -122,6 +122,47 @@ cards100.forEach(function(card){
             let contentMes100 = document.querySelector('.content-mes100');
             //a;adir una clase de salida a los close
             contentMes100.classList.add("animate__fadeOutUp");
+            //poner un timer para que haga una accion en 1000ms
+            setTimeout(function(){
+                location.href = "../tabs/gifts.html";
+            },1000);
+            
+
+        return false
+    })
+});
+//CLose card for mes103
+let cards103 = document.querySelectorAll('.clocard-103');
+//Recorrerlos
+cards103.forEach(function(card){
+
+//Agregar un evento click a cada uno de ellos
+    card.addEventListener('click', function(event){
+        event.preventDefault()
+            let contentMes103 = document.querySelector('.content-mes-103');
+            //a;adir una clase de salida a los close
+            contentMes103.classList.add("animate__flipOutX");
+            //poner un timer para que haga una accion en 1000ms
+            setTimeout(function(){
+                location.href = "../tabs/gifts.html";
+            },1000);
+            
+
+        return false
+    })
+});
+
+//CLose card for mes104
+let cards104 = document.querySelectorAll('.clocard-104');
+//Recorrerlos
+cards104.forEach(function(card){
+
+//Agregar un evento click a cada uno de ellos
+    card.addEventListener('click', function(event){
+        event.preventDefault()
+            let contentMes104 = document.querySelector('.content-mes-104');
+            //a;adir una clase de salida a los close
+            contentMes104.classList.add("animate__fadeOutRight");
             //poner un timer para que haga una accion en 1000ms
             setTimeout(function(){
                 location.href = "../tabs/gifts.html";
